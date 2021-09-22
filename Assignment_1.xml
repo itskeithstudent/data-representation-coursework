@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<catalogue type="technical books">
+		<book isbn-13="978-1119327639" isbn-10="9781119327639">
+			<title>Data Science For Dummies, 2nd Edition</title>
+			<author>Lillian Pierson</author>
+		</book>
+		<book isbn-13="978-0374533557" isbn-10="0374533555">
+			<title>Thinking, Fast and Slow</title>
+			<author>Daniel Kahneman</author>
+		</book>
+	</catalogue>
+	<catalogue type="cookery books">
+		<book isbn-13="978-0241956465" isbn-10="9780241956465">
+			<title>Mastering the Art of French Cooking, Vol.1: Volume 1 </title>
+			<author>Julia Child</author>
+		</book>
+		<book isbn-13="978-1138133701" isbn-10="9781138133701">
+			<title>To Serve Man</title>
+			<author>Rod Sterling</author>
+		</book>
+	</catalogue>
+</library>
