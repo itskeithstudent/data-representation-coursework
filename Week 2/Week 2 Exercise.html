@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 2 JS</title>
+    </head>
+    <body>
+        <div style="display: none;">This element is invisible</div>
+        <div>
+            <input id="text-input" type="text"/>
+            <button onclick="pushMe()">OK</button>
+            <p id="text-printer"></p>
+        </div>
+    </body>
+    <script>
+        console.log("Something Something")
+        function pushMe(){
+            var text_input = document.getElementById("text-input").value;
+            document.getElementById("text-printer").innerText = text_input;
+        }
+    </script>
+</html>
