@@ -6,6 +6,7 @@
     <body>
         <!--E.1-->
         <div style="display: none;">This element is invisible</div>
+
         <!--E.3-->
         <div>
             <input id="text-input" type="text"/>
@@ -13,6 +14,24 @@
             <p id="text-printer"></p>
         </div>
         <!--E.3-->
+
+        <!--E.5-->
+        <br/>
+        <div id="hide-a-div" style="display:block">
+            <button id="hide-a-btn" onclick="hideOneShowAnother()">Hide me and show another</button>
+        </div>
+        <div id="hide-b-div" style="display:none">
+            <button id="hide-b-btn" onclick="hideOneShowAnother()">See me no more and display another</button>
+        </div>
+        <!--E.5-->
+
+        <!--E.6-->
+        <br/>
+        <div>
+            <input id="value-input" type="number" onchange="valueCheck(this)"/>
+            <p id="value-checker"></p>
+        </div>
+        <!--E.6-->
     </body>
     <script>
         console.log("Something Something") //E.2
@@ -29,5 +48,39 @@
         book.author = "Steven Erikson"
         console.log(book)
         //E.4
+
+        //E.5
+        var hide_a_div = document.getElementById("hide-a-div");
+        var hide_b_div = document.getElementById("hide-b-div");
+        function hideOneShowAnother(){
+            console.log(hide_a_div.style.display);
+            //naievly assume if hide_a_div is block then other must be none
+            if(hide_a_div.style.display == "block")
+            {
+                hide_a_div.style.display = "none";
+                hide_b_div.style.display = "block";
+            }//else hide_a_div is not block so assume the other button was clicked
+            else{
+                hide_a_div.style.display = "block";
+                hide_b_div.style.display = "none";
+            }
+        }
+        //E.5
+
+        //E.6
+        var value_checker = document.getElementById("value-checker");
+        function valueCheck(inputvalue){
+            value = inputvalue.value;
+            if(value == 10){
+                value_checker.innerText= "equal 10";
+            }
+            else if(value < 10){
+                value_checker.innerText= "less than 10";
+            }
+            else{
+                value_checker.innerText= "greater than 10";
+            }
+        }
+        //E.6
     </script>
 </html>
