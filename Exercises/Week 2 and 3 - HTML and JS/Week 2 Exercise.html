@@ -4,18 +4,30 @@
         <title>Week 2 JS</title>
     </head>
     <body>
+        <!--E.1-->
         <div style="display: none;">This element is invisible</div>
+        <!--E.3-->
         <div>
             <input id="text-input" type="text"/>
             <button onclick="pushMe()">OK</button>
             <p id="text-printer"></p>
         </div>
+        <!--E.3-->
     </body>
     <script>
-        console.log("Something Something")
+        console.log("Something Something") //E.2
+        //E.3
         function pushMe(){
             var text_input = document.getElementById("text-input").value;
             document.getElementById("text-printer").innerText = text_input;
         }
+        //E.3
+        //E.4
+        var book = {};
+        book.isbn = "1138"
+        book.title = "Gardens of the Moon"
+        book.author = "Steven Erikson"
+        console.log(book)
+        //E.4
     </script>
 </html>
