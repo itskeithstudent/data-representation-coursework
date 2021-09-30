@@ -32,6 +32,23 @@
             <p id="value-checker"></p>
         </div>
         <!--E.6-->
+
+        <!--E.7-->
+        <br/>
+        <div id="output">
+
+        </div>
+        <!--E.7-->
+
+        <!--E.8-->
+        <br/>
+        <div id="formex">
+            Movie<input type="text" name="movie-in"> <br/>
+            Director<input type="text" name="director-in"> <br/>
+            Actor<input type="text" name="actor-in"> <br/>
+            <button onclick="printForm()">Submit</button>
+        </div>
+        <!--E.8-->
     </body>
     <script>
         console.log("Something Something") //E.2
@@ -82,5 +99,35 @@
             }
         }
         //E.6
+
+        //E.7
+        for(var i=0; i<10; i++)
+        {console.log(i);}
+
+        var name_list = ["Kirk", "Picard", "Spock", "Data"];
+        var output = "";
+
+        for(name of name_list){
+            output += name + " ";
+        }
+        document.getElementById("output").innerText = output;
+        //E.7
+
+        //E.8
+        function printForm(){
+            console.log("HERE");
+            var film_json = {};
+            var film_form = document.getElementById("formex");
+            film_json.movie = film_form.querySelector("input[name='movie-in']").value;
+            film_json.director = film_form.querySelector("input[name='director-in']").value;
+            film_json.actor = film_form.querySelector("input[name='actor-in']").value;
+            console.log(JSON.stringify(film_json));
+            document.getElementById("formex").innerText = JSON.stringify(film_json);
+        }
+        //E.8
+
+        //E.9
+
+        //E.9
     </script>
 </html>
