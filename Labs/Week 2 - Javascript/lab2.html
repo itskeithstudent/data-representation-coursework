@@ -22,8 +22,8 @@
 					<th>Update</th>
 					<th>Delete</th>
 				</tr>
-				<tr>
-					<td>191 MO 123</td>
+				<tr id='191 MO 123'>
+					<td >191 MO 123</td>
 					<td>Ford</td>
 					<td>Modeo</td>
 					<td>25000</td>
@@ -64,11 +64,6 @@
 			document.getElementById('do-update-btn').style.display="none"
 		}
 
-		//skeleton function to show when user wants to update a row
-		function showUpdate(button_element){
-			
-		}
-
 		//function to display back the table and hide the form
 		function showViewAll(){
 			document.getElementById("show-create-button").style.display="block";
@@ -79,7 +74,6 @@
 		//function to clear up inputs to the form
 		function clearForm(){
 			var form = document.getElementById("cu-form");
-			form.querySelector('input[name="reg"]').disabled = false; //not sure on purpose of this line
 			form.querySelector('input[name="reg"]').value ='';
 			form.querySelector('select[name="make"]').value='';
 			form.querySelector('input[name="model"]').value='';
@@ -90,9 +84,10 @@
 		function addCarToTable(car){
 			var table = document.getElementById('car-table'); //grab the table to insert data to
 			var row = table.insertRow(-1); //append row to end of table
+			row.setAttribute('id', car.reg);
 			var cell0 = row.insertCell(0);
 			console.log("here");
-			cell0 = car.reg;
+			cell0.innerHTML = car.reg;
 			console.log(cell0);
 			var cell1 = row.insertCell(1);
 			cell1.innerHTML = car.make;
@@ -120,8 +115,75 @@
 			clearForm();
 			showViewAll();
 		}
+
+		function getCarFromElement(row_ele){
+			var car ={};
+			car.reg = row_ele.cells[0].firstChild.textContent;
+			car.make = row_ele.cells[1].firstChild.textContent;
+			car.model = row_ele.cells[2].firstChild.textContent;
+			car.price = row_ele.cells[3].firstChild.textContent;
+			return car;
+		}
+
+		function popFormWithCar(car){
+			var form = document.getElementById("cu-form");
+			form.querySelector('input[name="reg"]').value = car.reg;
+			form.querySelector('select[name="make"]').value= car.make;
+			form.querySelector('input[name="model"]').value= car.model;
+			form.querySelector('input[name="price"]').value=car.price;
+		}
+
+		function getCarFromForm(){
+			var form = document.getElementById("cu-form");
+			var car = {};
+			car.reg = form.querySelector('input[name="reg"]').disabled = true;
+			car.reg = form.querySelector('input[name="reg"]').value;
+			car.make = form.querySelector('select[name="make"]').value;
+			car.model = form.querySelector('input[name="model"]').value;
+			car.price = form.querySelector('input[name="price"]').value;
+			return car;
+		}
+
+		function updateCarInRow(row_ele, car){
+			console.log(row_ele);
+			row_ele.cells[0].firstChild.textContent = car.reg;
+			row_ele.cells[1].firstChild.textContent = car.make;
+			row_ele.cells[2].firstChild.textContent = car.model;
+			row_ele.cells[3].firstChild.textContent = car.price;
+		}
+
 		//add skeleton function for performing same as doCreate but on updating a existing row
 		function doUpdate(){
+			var car = getCarFromForm();
+			var row_ele = document.getElementById(car.reg);
+			updateCarInRow(row_ele,car);
+			clearForm();
+			showViewAll();
+		}
+
+		//skeleton function to show when user wants to update a row
+		function showUpdate(button_ele){
+			document.getElementById("show-create-button").style.display="none";
+			document.getElementById("car-table").style.display="none";
+			document.getElementById("cu-form").style.display="block"; //make form visible
+
+			document.getElementById('create-label').style.display="none" //make span invisible
+			document.getElementById('update-label').style.display="inline"
+
+			document.getElementById('do-create-btn').style.display="inline" //make create button invisible
+			document.getElementById('do-update-btn').style.display="inline"
+			var row_ele = button_ele.parentNode.parentNode;
+			var car = getCarFromElement(row_ele);
+			popFormWithCar(car);
+		}
+
+		function doDelete(button_ele){
+			var row_ele = button_ele.parentNode.parentNode;
+			var row_ele_index = row_ele.rowIndex;
+
+			var table_ele = document.getElementById('car-table');
+
+			table_ele.deleteRow(row_ele_index);
 		}
 	</script>
 </html>
