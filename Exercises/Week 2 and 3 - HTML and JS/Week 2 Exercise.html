@@ -49,6 +49,29 @@
             <button onclick="printForm()">Submit</button>
         </div>
         <!--E.8-->
+
+        <!--E.9-->
+        <div name="table-div" class="table">
+			<h2>All Cars</h2>
+			<table id="table1" name="table" border="2">
+				<tr>
+					<th>reg</th>
+					<th>make</th>
+					<th>model</th>
+					<th>price</th>
+					<th>Print</th>
+				</tr>
+				<tr>
+					<td>191 MO 123</td>
+					<td>Ford</td>
+					<td>Modeo</td>
+					<td>25000</td>
+					<td><button onclick="printRow(this)">print</button></td>
+				</tr>
+			</table>
+            <button onclick="addRow()">Add data</button>
+		</div>
+        <!--E.9-->
     </body>
     <script>
         console.log("Something Something") //E.2
@@ -115,7 +138,7 @@
 
         //E.8
         function printForm(){
-            console.log("HERE");
+            //console.log("HERE");
             var film_json = {};
             var film_form = document.getElementById("formex");
             film_json.movie = film_form.querySelector("input[name='movie-in']").value;
@@ -127,7 +150,24 @@
         //E.8
 
         //E.9
+        function printRow(button_ele){
+            var button_row = button_ele.parentNode.parentNode;
+            var data = {};
+            data.reg=button_row.cells[0].firstChild.textContent;
+            data.make=button_row.cells[1].firstChild.textContent;
 
+            console.log(JSON.stringify(data));
+        }
         //E.9
+        //E.10
+        var table = document.getElementById("table1");
+        function addRow(){
+            console.log(table.innerText);
+            tr=table.insertRow(-1);
+            cell0 = tr.insertCell(0);
+            cell1 = tr.insertCell(1);
+            cell0.innerText = "A";
+        }
+        //E.10
     </script>
 </html>
