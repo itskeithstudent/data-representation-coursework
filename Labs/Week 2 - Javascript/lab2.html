@@ -4,14 +4,14 @@
 		<link rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-			crossorigin="anonymous"> 
+			crossorigin="anonymous">
 	</head>
 	<body>
 		<h1>Cars</h1>
 		<div name="butt-div">
-			<button>Create</button>
+			<button id="show-create-button" onclick="showCreate()">Create</button>
 		</div>
-		<div name="table-div" class="table">
+		<div id="car-table" name="table-div" class="table">
 			<h2>All Cars</h2>
 			<table name="table" border="2">
 				<tr>
@@ -27,23 +27,72 @@
 					<td>Ford</td>
 					<td>Modeo</td>
 					<td>25000</td>
-					<td><button>update</button></td>
+					<td><button onclick="showUpdate(this)">update</button></td>
 					<td><button>Delete</button></td>
 				</tr>
 			</table>
 		</div>
-		<div name="form-div">
-			<h2><span>Create a</span> <span>Update this</span> Car</h2>
-			Reg <input type="text" name="reg"><br/> 
-            Make <select name="make"> 
-                    <option value="Ford">Ford</option> 
-                    <option value="Fiat">Fiat</option> 
-                    <option value="Nissan">Nissan</option> 
-                </select><br/> 
-            Model <input type="text" name="model"><br/> 
+
+		<div name="form-div" id="cu-form" style="display:none">
+			<h2><span id="create-label">Create a</span> <span id="update-label">Update this</span> Car</h2>
+			Reg <input type="text" name="reg"><br/>
+            Make <select name="make">
+                    <option value="Ford">Ford</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Nissan">Nissan</option>
+                </select><br/>
+            Model <input type="text" name="model"><br/>
             Price <input type="number" name="price"><br/>
-            <span><button>Create</button></span>
-            <span><button>Update</button></span>
+            <span><button id="do-create-btn" onclick="doCreate()">Create</button></span>
+            <span><button id="do-update-btn" onclick="doUpdate()">Update</button></span>
+
 		</div>
 	</body>
+	<script>
+		function showCreate(){
+
+			document.getElementById("show-create-button").style.display="none";
+			document.getElementById("car-table").style.display="none";
+			document.getElementById("cu-form").style.display="block";
+
+			document.getElementById('create-label').style.display="inline"
+			document.getElementById('update-label').style.display="none"
+
+			document.getElementById('do-create-btn').style.display="block"
+			document.getElementById('do-update-btn').style.display="none"
+		}
+
+		function showUpdate(button_element){
+			
+		}
+		
+		function showViewAll(){
+			document.getElementById("show-create-button").style.display="block";
+			document.getElementById("car-table").style.display="block";
+			document.getElementById("cu-form").style.display="none";
+		}
+
+		function clearForm(){
+			var form = document.getElementById("cu-form");
+			form.querySelector('input[name="reg"]').disabled = false;
+			form.querySelector('input[name="reg"]').value ='';
+			form.querySelector('select[name="make"]').value='';
+			form.querySelector('input[name="model"]').value='';
+			form.querySelector('input[name="price"]').value='';
+		}
+
+		function doCreate(){
+			var car = {};
+			car.reg = form.querySelector('input[name="reg"]').value
+			car.make = form.querySelector('select[name="make"]').value;
+			car.model = form.querySelector('input[name="model"]').value;
+			car.price = form.querySelector('input[name="price"]').value;
+			//console.log(car)
+			clearForm();
+			showViewAll();
+		}
+
+		function doUpdate(){
+		}
+	</script>
 </html>
