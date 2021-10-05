@@ -49,38 +49,44 @@
 		</div>
 	</body>
 	<script>
+		//On click of create button at top of page hide table and other elements and make form visible
+		//we want essentially the form to pop in and the tabular data to dissapear to behave like a user wants to add an entry
 		function showCreate(){
 
 			document.getElementById("show-create-button").style.display="none";
 			document.getElementById("car-table").style.display="none";
-			document.getElementById("cu-form").style.display="block";
+			document.getElementById("cu-form").style.display="block"; //make form visible
 
-			document.getElementById('create-label').style.display="inline"
+			document.getElementById('create-label').style.display="inline" //make span visible
 			document.getElementById('update-label').style.display="none"
 
-			document.getElementById('do-create-btn').style.display="block"
+			document.getElementById('do-create-btn').style.display="block" //make create button visible
 			document.getElementById('do-update-btn').style.display="none"
 		}
 
+		//skeleton function to show when user wants to update a row
 		function showUpdate(button_element){
 			
 		}
 
+		//function to display back the table and hide the form
 		function showViewAll(){
 			document.getElementById("show-create-button").style.display="block";
 			document.getElementById("car-table").style.display="block";
 			document.getElementById("cu-form").style.display="none";
 		}
 
+		//function to clear up inputs to the form
 		function clearForm(){
 			var form = document.getElementById("cu-form");
-			form.querySelector('input[name="reg"]').disabled = false;
+			form.querySelector('input[name="reg"]').disabled = false; //not sure on purpose of this line
 			form.querySelector('input[name="reg"]').value ='';
 			form.querySelector('select[name="make"]').value='';
 			form.querySelector('input[name="model"]').value='';
 			form.querySelector('input[name="price"]').value='';
 		}
 
+		//function to add a new entry to table element, takes in a json object as it's argument
 		function addCarToTable(car){
 			var table = document.getElementById('car-table'); //grab the table to insert data to
 			var row = table.insertRow(-1); //append row to end of table
@@ -101,6 +107,7 @@
 
 		}
 
+		//on click of create button from form, populate data in form back to table, creating a new row in process, clearing the form and showing back the table
 		function doCreate(){
 			var car = {};
 			var form = document.getElementById("cu-form");
@@ -113,7 +120,7 @@
 			clearForm();
 			showViewAll();
 		}
-
+		//add skeleton function for performing same as doCreate but on updating a existing row
 		function doUpdate(){
 		}
 	</script>
