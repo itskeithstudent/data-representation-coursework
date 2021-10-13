@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>JSON</title>
+	</head>
+	<body>
+		<button onclick="displayJson()"></button>
+	</body>
+	<script>
+		console.log("Dummy");
+		function displayJson(){
+			var obj = JSON.parse('{"employees":[{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}');
+			var obj2 = {"employees":[{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]};
+			//console.log(obj);
+			console.log(obj2);
+			//for (e of obj.employees){
+			//	console.log(e.firstName);
+			//}
+			for (e of obj2.employees){
+				console.log(e.firstName);
+			}
+		};
+	</script>
+</html>
