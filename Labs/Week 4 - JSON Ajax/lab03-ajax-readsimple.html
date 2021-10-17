@@ -5,7 +5,11 @@ min.js"></script>
 		<title>Ajax</title>
 	</head>
 	<body>
-		<button onclick="readJSON()"></button>
+		<button onclick="readJSON()">Hit me!</button>
+	</body>
+	<body>
+		<button onclick="readExtraJSON()">Hit me!</button>
+		<h3 id="print-me"></h3>
 	</body>
 	<script>
 		function readJSON(){
@@ -24,5 +28,24 @@ min.js"></script>
 				}
 			});
 		};
+		function readExtraJSON(){
+			var h3doc = document.getElementById("print-me");
+			$.ajax({
+				"url":"https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR",
+				"method": "GET",
+				"data":"",
+				"dataType": "JSON",
+				"success":function(result){
+					console.log(result);
+					//console.log(JSON.parse(result).bpi.EUR.rate);
+					console.log(result.USD);
+					h3doc.innerText = result.USD;
+				},
+				"error":function(xhr,status,error){
+					console.log("error:" + status + " msg:" +error);
+				}
+			});
+
+					};
 	</script>
 </html>
