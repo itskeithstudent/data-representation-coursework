@@ -1,10 +1,12 @@
 #!flask/bin/python
 from flask import Flask, jsonify,  request, abort, make_response
-
+from flask.templating import render_template
+from flask_cors import CORS
 app = Flask(__name__,
             static_url_path='',
-            static_folder='../templates')
-
+            static_folder='../templates/',
+            template_folder='../templates/')
+CORS(app)
 cars = [
     {
         "reg":"181 G 1234",
@@ -26,6 +28,11 @@ cars = [
     }
 ]
 
+@app.route('/test', methods=['GET'])
+def get_pg():
+    print("Yo")
+    return render_template("testgetall.html")
+
 @app.route('/cars', methods=['GET'])
 def get_cars():
     return jsonify( {'cars':cars})
@@ -42,6 +49,7 @@ def get_car(reg):
 
 @app.route('/cars', methods=['POST'])
 def create_car():
+    print("Something")
     if not request.json:
         abort(400)
     if not 'reg' in request.json:

@@ -1,0 +1,128 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>
+        Test get all!
+    </title>
+</head>
+    <button onclick="getAll()">getAll</button>
+    <button onclick="createCar()">create</button>
+    <button onclick="updateCar()">Update</button>
+    <button onclick="deleteCar()">DELETE</button>
+    <div id="output"></div>
+    <table id="carsTable">
+        <tr>
+            <th>reg</th><th>make</th><th>model</th><th>price</th><th></th><th></th>
+        </tr>
+    </table>
+    <script>
+        function getAll(){
+            $.ajax({
+                "url": "http://127.0.0.1:5000/cars",
+                "method":"GET",
+                "data":"",
+                "datatype":"JSON",
+                contentType: "application/json; charset=utf-8",
+                "success":function(result){
+                    console.log(result);
+                    for (item of result.cars){
+                        console.log(item);
+                        addCarToTable(item);
+                    }
+                },
+                "error":function(xhr,status,error){
+                    console.log("You hit Error: " + status+ "Msg: " + error);
+                }
+            });
+        };
+
+        function addCarToTable(car){
+			var table = document.getElementById('carsTable'); //grab the table to insert data to
+			var row = table.insertRow(-1); //append row to end of table
+			row.setAttribute('id', car.reg);
+			var cell0 = row.insertCell(0);
+			console.log("here");
+			cell0.innerHTML = car.reg;
+			console.log(cell0);
+			var cell1 = row.insertCell(1);
+			cell1.innerHTML = car.make;
+			var cell2 = row.insertCell(2);
+			cell2.innerHTML = car.model;
+			var cell3 = row.insertCell(3);
+			cell3.innerHTML = car.price;
+			var cell3 = row.insertCell(4);
+			cell3.innerHTML = '<td><button onclick="showUpdate(this)">update</button></td>'
+			var cell3 = row.insertCell(5);
+			cell3.innerHTML = '<td><button onclick="doDelete(this)">Delete</button></td>'
+
+		}
+
+        function createCar(){
+            car = {"reg":"123XYZ", "make":"Test", "model":"TestModel", "price":111};
+            $.ajax({
+                "url": "http://127.0.0.1:5000/cars",
+                "method":"POST",
+                "data":JSON.stringify(car),
+                "datatype":"JSON",
+                "contentType": "application/json; charset=utf-8",
+                "success":function(result){
+                    console.log(result);
+                    console.log(result.car.make);
+                    // for (var key in result.car){
+                    //     console.log(key);
+                    //     document.getElementById("output").innerText = document.getElementById("output").innerText + " " + key + ":" + result.car[key];
+                    // }
+                    document.getElementById("output").innerText = JSON.stringify(result);
+                },
+                "error":function(xhr,status,error){
+                    console.log("You hit Error: " + status+ "Msg: " + error);
+                }
+            });
+        }
+
+        function updateCar(){
+            car = {"reg":"123XYZ", "make":"UpdateMake", "model":"UpdateMod", "price":10101};
+            $.ajax({
+                "url": "http://127.0.0.1:5000/cars/" + encodeURI(car.reg),
+                "method":"PUT",
+                "data":JSON.stringify(car),
+                "datatype":"JSON",
+                "contentType": "application/json; charset=utf-8",
+                "success":function(result){
+                    console.log(result);
+                    console.log(result.car.make);
+                    // for (var key in result.car){
+                    //     console.log(key);
+                    //     document.getElementById("output").innerText = JSON.stringify(result);
+                    // }
+                    document.getElementById("output").innerText = JSON.stringify(result);
+                },
+                "error":function(xhr,status,error){
+                    console.log("You hit Error: " + status+ "Msg: " + error);
+                }
+            });
+        }
+
+        function deleteCar(){
+            car = {"reg":"123XYZ"};
+            $.ajax({
+                "url": "http://127.0.0.1:5000/cars/" + encodeURI(car.reg),
+                "method":"DELETE",
+                "data":"",
+                "datatype":"JSON",
+                "contentType": "application/json; charset=utf-8",
+                "success":function(result){
+                    console.log(result);
+                    // for (var key in result.car){
+                    //     console.log(key);
+                    //     document.getElementById("output").innerText = JSON.stringify(result);
+                    // }
+                    document.getElementById("output").innerText = JSON.stringify(result);
+                },
+                "error":function(xhr,status,error){
+                    console.log("You hit Error: " + status+ "Msg: " + error);
+                }
+            });
+        }
+    </script>
+</html>
