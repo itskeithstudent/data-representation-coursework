@@ -1,0 +1,2276 @@
+<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.9/schema" created="2021-11-03T22:26:04Z">
+   <meta>
+      <model name="harmonie" termin="2021-11-03T18:00:00Z" runended="2021-11-03T21:33:39Z" nextrun="2021-11-04T04:00:00Z" from="2021-11-03T23:00:00Z" to="2021-11-06T00:00:00Z" />
+      <model name="ec_n1280_1hr" termin="2021-11-03T12:00:00Z" runended="2021-11-03T21:33:38Z" nextrun="2021-11-04T06:00:00Z" from="2021-11-06T01:00:00Z" to="2021-11-07T06:00:00Z" />
+      <model name="ec_n1280_3hr" termin="2021-11-03T12:00:00Z" runended="2021-11-03T21:33:38Z" nextrun="2021-11-04T06:00:00Z" from="2021-11-07T09:00:00Z" to="2021-11-09T12:00:00Z" />
+      <model name="ec_n1280_6hr" termin="2021-11-03T12:00:00Z" runended="2021-11-03T21:33:39Z" nextrun="2021-11-04T06:00:00Z" from="2021-11-09T18:00:00Z" to="2021-11-13T12:00:00Z" />
+      </meta>
+   <product class="pointData">
+      <time datatype="forecast" from="2021-11-03T23:00:00Z" to="2021-11-03T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.1"/>
+            <windDirection id="dd" deg="324.9" name="NW"/>
+            <windSpeed id="ff" mps="4.2" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.0"/>
+            <cloudiness id="NN" percent="0.0"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-03T22:00:00Z" to="2021-11-03T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T00:00:00Z" to="2021-11-04T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="4.7"/>
+            <windDirection id="dd" deg="324.0" name="NW"/>
+            <windSpeed id="ff" mps="4.0" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.4"/>
+            <cloudiness id="NN" percent="0.0"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-03T23:00:00Z" to="2021-11-04T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T01:00:00Z" to="2021-11-04T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="4.2"/>
+            <windDirection id="dd" deg="325.0" name="NW"/>
+            <windSpeed id="ff" mps="3.7" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.7"/>
+            <cloudiness id="NN" percent="0.6"/>
+            <lowClouds id="LOW" percent="0.5"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T00:00:00Z" to="2021-11-04T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T02:00:00Z" to="2021-11-04T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="4.0"/>
+            <windDirection id="dd" deg="324.6" name="NW"/>
+            <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.9"/>
+            <cloudiness id="NN" percent="2.0"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="1.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T01:00:00Z" to="2021-11-04T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T03:00:00Z" to="2021-11-04T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="3.2"/>
+            <windDirection id="dd" deg="313.3" name="NW"/>
+            <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="90.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.2"/>
+            <cloudiness id="NN" percent="0.8"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T02:00:00Z" to="2021-11-04T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T04:00:00Z" to="2021-11-04T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.9"/>
+            <windDirection id="dd" deg="312.8" name="NW"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.8"/>
+            <cloudiness id="NN" percent="0.1"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T03:00:00Z" to="2021-11-04T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T05:00:00Z" to="2021-11-04T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.5"/>
+            <windDirection id="dd" deg="301.4" name="NW"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.4"/>
+            <cloudiness id="NN" percent="0.1"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="0.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T04:00:00Z" to="2021-11-04T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T06:00:00Z" to="2021-11-04T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.2"/>
+            <windDirection id="dd" deg="294.6" name="NW"/>
+            <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="87.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.0"/>
+            <cloudiness id="NN" percent="0.7"/>
+            <lowClouds id="LOW" percent="0.6"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="0.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T05:00:00Z" to="2021-11-04T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T07:00:00Z" to="2021-11-04T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="1.6"/>
+            <windDirection id="dd" deg="287.0" name="W"/>
+            <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.7"/>
+            <cloudiness id="NN" percent="0.4"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="-0.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T06:00:00Z" to="2021-11-04T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.5"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T08:00:00Z" to="2021-11-04T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="1.5"/>
+            <windDirection id="dd" deg="291.4" name="W"/>
+            <windSpeed id="ff" mps="2.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="2.9" unit="W/m^2"/>
+            <humidity value="88.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.1"/>
+            <cloudiness id="NN" percent="9.6"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="9.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="-0.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T07:00:00Z" to="2021-11-04T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T09:00:00Z" to="2021-11-04T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.7"/>
+            <windDirection id="dd" deg="290.1" name="W"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="71.2" unit="W/m^2"/>
+            <humidity value="84.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.5"/>
+            <cloudiness id="NN" percent="9.4"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="9.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="0.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T08:00:00Z" to="2021-11-04T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T10:00:00Z" to="2021-11-04T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.8"/>
+            <windDirection id="dd" deg="309.5" name="NW"/>
+            <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="175.9" unit="W/m^2"/>
+            <humidity value="76.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.1"/>
+            <cloudiness id="NN" percent="6.7"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.1"/>
+            <highClouds id="HIGH" percent="6.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T09:00:00Z" to="2021-11-04T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T11:00:00Z" to="2021-11-04T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.6"/>
+            <windDirection id="dd" deg="317.9" name="NW"/>
+            <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="252.8" unit="W/m^2"/>
+            <humidity value="71.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.3"/>
+            <cloudiness id="NN" percent="11.3"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="11.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T10:00:00Z" to="2021-11-04T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T12:00:00Z" to="2021-11-04T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.0"/>
+            <windDirection id="dd" deg="330.1" name="NW"/>
+            <windSpeed id="ff" mps="4.0" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="286.1" unit="W/m^2"/>
+            <humidity value="67.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.2"/>
+            <cloudiness id="NN" percent="8.3"/>
+            <lowClouds id="LOW" percent="8.3"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T11:00:00Z" to="2021-11-04T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.7"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T13:00:00Z" to="2021-11-04T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.6"/>
+            <windDirection id="dd" deg="333.9" name="NW"/>
+            <windSpeed id="ff" mps="3.7" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="296.3" unit="W/m^2"/>
+            <humidity value="66.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.3"/>
+            <cloudiness id="NN" percent="6.0"/>
+            <lowClouds id="LOW" percent="6.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T12:00:00Z" to="2021-11-04T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.6"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T14:00:00Z" to="2021-11-04T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.9"/>
+            <windDirection id="dd" deg="321.7" name="NW"/>
+            <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="262.2" unit="W/m^2"/>
+            <humidity value="66.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.3"/>
+            <cloudiness id="NN" percent="50.2"/>
+            <lowClouds id="LOW" percent="50.2"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T13:00:00Z" to="2021-11-04T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="3.3"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T15:00:00Z" to="2021-11-04T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.6"/>
+            <windDirection id="dd" deg="300.2" name="NW"/>
+            <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="184.8" unit="W/m^2"/>
+            <humidity value="72.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.4"/>
+            <cloudiness id="NN" percent="89.1"/>
+            <lowClouds id="LOW" percent="89.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T14:00:00Z" to="2021-11-04T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.5"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T16:00:00Z" to="2021-11-04T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.1"/>
+            <windDirection id="dd" deg="288.9" name="W"/>
+            <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="87.4" unit="W/m^2"/>
+            <humidity value="83.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.6"/>
+            <cloudiness id="NN" percent="55.2"/>
+            <lowClouds id="LOW" percent="55.2"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T15:00:00Z" to="2021-11-04T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.7"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T17:00:00Z" to="2021-11-04T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.6"/>
+            <windDirection id="dd" deg="273.1" name="W"/>
+            <windSpeed id="ff" mps="1.9" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="14.5" unit="W/m^2"/>
+            <humidity value="91.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.0"/>
+            <cloudiness id="NN" percent="0.0"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T16:00:00Z" to="2021-11-04T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T18:00:00Z" to="2021-11-04T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.7"/>
+            <windDirection id="dd" deg="260.7" name="W"/>
+            <windSpeed id="ff" mps="2.0" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="96.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.6"/>
+            <cloudiness id="NN" percent="54.5"/>
+            <lowClouds id="LOW" percent="53.8"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T17:00:00Z" to="2021-11-04T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T19:00:00Z" to="2021-11-04T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.8"/>
+            <windDirection id="dd" deg="270.0" name="W"/>
+            <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="96.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.2"/>
+            <cloudiness id="NN" percent="61.2"/>
+            <lowClouds id="LOW" percent="60.8"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T18:00:00Z" to="2021-11-04T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.9"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T20:00:00Z" to="2021-11-04T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.0"/>
+            <windDirection id="dd" deg="264.1" name="W"/>
+            <windSpeed id="ff" mps="2.8" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="96.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.6"/>
+            <cloudiness id="NN" percent="1.3"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T19:00:00Z" to="2021-11-04T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T21:00:00Z" to="2021-11-04T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="4.2"/>
+            <windDirection id="dd" deg="260.0" name="W"/>
+            <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.8"/>
+            <cloudiness id="NN" percent="1.2"/>
+            <lowClouds id="LOW" percent="0.2"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T20:00:00Z" to="2021-11-04T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T22:00:00Z" to="2021-11-04T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="3.6"/>
+            <windDirection id="dd" deg="259.2" name="W"/>
+            <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="94.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.9"/>
+            <cloudiness id="NN" percent="39.7"/>
+            <lowClouds id="LOW" percent="1.7"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="38.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T21:00:00Z" to="2021-11-04T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T23:00:00Z" to="2021-11-04T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="3.1"/>
+            <windDirection id="dd" deg="253.9" name="W"/>
+            <windSpeed id="ff" mps="2.8" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.1"/>
+            <cloudiness id="NN" percent="2.8"/>
+            <lowClouds id="LOW" percent="0.4"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="2.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T22:00:00Z" to="2021-11-04T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T00:00:00Z" to="2021-11-05T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.4"/>
+            <windDirection id="dd" deg="245.3" name="SW"/>
+            <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.2"/>
+            <cloudiness id="NN" percent="41.1"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="40.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-04T23:00:00Z" to="2021-11-05T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T01:00:00Z" to="2021-11-05T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.1"/>
+            <windDirection id="dd" deg="241.5" name="SW"/>
+            <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.2"/>
+            <cloudiness id="NN" percent="75.4"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="75.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T00:00:00Z" to="2021-11-05T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T02:00:00Z" to="2021-11-05T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="1.6"/>
+            <windDirection id="dd" deg="235.1" name="SW"/>
+            <windSpeed id="ff" mps="2.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="96.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.0"/>
+            <cloudiness id="NN" percent="24.6"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="18.7"/>
+            <dewpointTemperature id="TD" unit="celsius" value="0.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T01:00:00Z" to="2021-11-05T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="LightCloud" number="2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T03:00:00Z" to="2021-11-05T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="1.7"/>
+            <windDirection id="dd" deg="235.8" name="SW"/>
+            <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.8"/>
+            <cloudiness id="NN" percent="94.8"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <mediumClouds id="MEDIUM" percent="1.0"/>
+            <highClouds id="HIGH" percent="94.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T02:00:00Z" to="2021-11-05T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="4.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T04:00:00Z" to="2021-11-05T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.2"/>
+            <windDirection id="dd" deg="242.9" name="SW"/>
+            <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="95.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.8"/>
+            <cloudiness id="NN" percent="99.7"/>
+            <lowClouds id="LOW" percent="0.2"/>
+            <mediumClouds id="MEDIUM" percent="2.8"/>
+            <highClouds id="HIGH" percent="99.7"/>
+            <dewpointTemperature id="TD" unit="celsius" value="1.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T03:00:00Z" to="2021-11-05T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T05:00:00Z" to="2021-11-05T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.9"/>
+            <windDirection id="dd" deg="250.0" name="W"/>
+            <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="94.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.2"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="31.2"/>
+            <mediumClouds id="MEDIUM" percent="15.3"/>
+            <highClouds id="HIGH" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T04:00:00Z" to="2021-11-05T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.6"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T06:00:00Z" to="2021-11-05T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="3.3"/>
+            <windDirection id="dd" deg="203.6" name="SW"/>
+            <windSpeed id="ff" mps="2.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="96.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.4"/>
+            <cloudiness id="NN" percent="97.1"/>
+            <lowClouds id="LOW" percent="48.2"/>
+            <mediumClouds id="MEDIUM" percent="7.7"/>
+            <highClouds id="HIGH" percent="93.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T05:00:00Z" to="2021-11-05T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.3"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T07:00:00Z" to="2021-11-05T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="2.6"/>
+            <windDirection id="dd" deg="182.1" name="S"/>
+            <windSpeed id="ff" mps="1.7" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="98.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.7"/>
+            <cloudiness id="NN" percent="99.8"/>
+            <lowClouds id="LOW" percent="76.7"/>
+            <mediumClouds id="MEDIUM" percent="12.1"/>
+            <highClouds id="HIGH" percent="98.8"/>
+            <dewpointTemperature id="TD" unit="celsius" value="2.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T06:00:00Z" to="2021-11-05T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T08:00:00Z" to="2021-11-05T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="3.3"/>
+            <windDirection id="dd" deg="200.7" name="S"/>
+            <windSpeed id="ff" mps="1.7" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="1.1" unit="W/m^2"/>
+            <humidity value="98.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.9"/>
+            <cloudiness id="NN" percent="99.9"/>
+            <lowClouds id="LOW" percent="97.9"/>
+            <mediumClouds id="MEDIUM" percent="7.2"/>
+            <highClouds id="HIGH" percent="92.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T07:00:00Z" to="2021-11-05T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T09:00:00Z" to="2021-11-05T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.1"/>
+            <windDirection id="dd" deg="218.8" name="SW"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="34.5" unit="W/m^2"/>
+            <humidity value="97.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1028.0"/>
+            <cloudiness id="NN" percent="99.9"/>
+            <lowClouds id="LOW" percent="92.4"/>
+            <mediumClouds id="MEDIUM" percent="27.2"/>
+            <highClouds id="HIGH" percent="99.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T08:00:00Z" to="2021-11-05T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.5"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T10:00:00Z" to="2021-11-05T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.0"/>
+            <windDirection id="dd" deg="223.9" name="SW"/>
+            <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="73.6" unit="W/m^2"/>
+            <humidity value="94.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1028.0"/>
+            <cloudiness id="NN" percent="90.8"/>
+            <lowClouds id="LOW" percent="29.5"/>
+            <mediumClouds id="MEDIUM" percent="18.3"/>
+            <highClouds id="HIGH" percent="86.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T09:00:00Z" to="2021-11-05T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="8.9"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T11:00:00Z" to="2021-11-05T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.3"/>
+            <windDirection id="dd" deg="246.4" name="SW"/>
+            <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="111.0" unit="W/m^2"/>
+            <humidity value="89.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1028.1"/>
+            <cloudiness id="NN" percent="99.7"/>
+            <lowClouds id="LOW" percent="98.6"/>
+            <mediumClouds id="MEDIUM" percent="29.7"/>
+            <highClouds id="HIGH" percent="80.7"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T10:00:00Z" to="2021-11-05T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.5"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T12:00:00Z" to="2021-11-05T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.3"/>
+            <windDirection id="dd" deg="256.5" name="W"/>
+            <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="133.9" unit="W/m^2"/>
+            <humidity value="91.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1028.2"/>
+            <cloudiness id="NN" percent="96.4"/>
+            <lowClouds id="LOW" percent="88.5"/>
+            <mediumClouds id="MEDIUM" percent="40.5"/>
+            <highClouds id="HIGH" percent="45.7"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T11:00:00Z" to="2021-11-05T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="4.3"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T13:00:00Z" to="2021-11-05T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.2"/>
+            <windDirection id="dd" deg="256.0" name="W"/>
+            <windSpeed id="ff" mps="1.8" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="142.4" unit="W/m^2"/>
+            <humidity value="89.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1028.0"/>
+            <cloudiness id="NN" percent="89.5"/>
+            <lowClouds id="LOW" percent="23.4"/>
+            <mediumClouds id="MEDIUM" percent="48.8"/>
+            <highClouds id="HIGH" percent="73.5"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T12:00:00Z" to="2021-11-05T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="7.4"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T14:00:00Z" to="2021-11-05T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.1"/>
+            <windDirection id="dd" deg="259.1" name="W"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="133.3" unit="W/m^2"/>
+            <humidity value="81.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.9"/>
+            <cloudiness id="NN" percent="72.9"/>
+            <lowClouds id="LOW" percent="9.7"/>
+            <mediumClouds id="MEDIUM" percent="52.8"/>
+            <highClouds id="HIGH" percent="36.5"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T13:00:00Z" to="2021-11-05T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.1"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T15:00:00Z" to="2021-11-05T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.1"/>
+            <windDirection id="dd" deg="250.4" name="W"/>
+            <windSpeed id="ff" mps="3.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="97.3" unit="W/m^2"/>
+            <humidity value="79.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.7"/>
+            <cloudiness id="NN" percent="65.5"/>
+            <lowClouds id="LOW" percent="3.3"/>
+            <mediumClouds id="MEDIUM" percent="18.6"/>
+            <highClouds id="HIGH" percent="56.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T14:00:00Z" to="2021-11-05T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.7"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T16:00:00Z" to="2021-11-05T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.4"/>
+            <windDirection id="dd" deg="226.9" name="SW"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="63.7" unit="W/m^2"/>
+            <humidity value="89.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.7"/>
+            <cloudiness id="NN" percent="54.3"/>
+            <lowClouds id="LOW" percent="26.7"/>
+            <mediumClouds id="MEDIUM" percent="8.4"/>
+            <highClouds id="HIGH" percent="33.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T15:00:00Z" to="2021-11-05T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="3.4"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T17:00:00Z" to="2021-11-05T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.2"/>
+            <windDirection id="dd" deg="217.6" name="SW"/>
+            <windSpeed id="ff" mps="1.4" beaufort="1" name="Flau vind"/>
+            <globalRadiation value="11.4" unit="W/m^2"/>
+            <humidity value="95.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.5"/>
+            <cloudiness id="NN" percent="98.1"/>
+            <lowClouds id="LOW" percent="93.7"/>
+            <mediumClouds id="MEDIUM" percent="9.8"/>
+            <highClouds id="HIGH" percent="66.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T16:00:00Z" to="2021-11-05T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.8"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T18:00:00Z" to="2021-11-05T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.7"/>
+            <windDirection id="dd" deg="204.4" name="SW"/>
+            <windSpeed id="ff" mps="2.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.6"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="99.9"/>
+            <mediumClouds id="MEDIUM" percent="3.3"/>
+            <highClouds id="HIGH" percent="73.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T17:00:00Z" to="2021-11-05T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T19:00:00Z" to="2021-11-05T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.7"/>
+            <windDirection id="dd" deg="210.8" name="SW"/>
+            <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.7"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="99.9"/>
+            <mediumClouds id="MEDIUM" percent="39.8"/>
+            <highClouds id="HIGH" percent="91.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T18:00:00Z" to="2021-11-05T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="5.1"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T20:00:00Z" to="2021-11-05T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.2"/>
+            <windDirection id="dd" deg="193.4" name="S"/>
+            <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.4"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <mediumClouds id="MEDIUM" percent="7.4"/>
+            <highClouds id="HIGH" percent="94.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T19:00:00Z" to="2021-11-05T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.6"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T21:00:00Z" to="2021-11-05T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.9"/>
+            <windDirection id="dd" deg="198.1" name="S"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1027.2"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <mediumClouds id="MEDIUM" percent="2.2"/>
+            <highClouds id="HIGH" percent="98.5"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T20:00:00Z" to="2021-11-05T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T22:00:00Z" to="2021-11-05T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.7"/>
+            <windDirection id="dd" deg="194.7" name="S"/>
+            <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.9"/>
+            <cloudiness id="NN" percent="100.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="96.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T21:00:00Z" to="2021-11-05T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="5.9"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T23:00:00Z" to="2021-11-05T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.7"/>
+            <windDirection id="dd" deg="186.3" name="S"/>
+            <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.5"/>
+            <cloudiness id="NN" percent="99.9"/>
+            <lowClouds id="LOW" percent="99.7"/>
+            <mediumClouds id="MEDIUM" percent="0.0"/>
+            <highClouds id="HIGH" percent="56.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T22:00:00Z" to="2021-11-05T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.9"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T00:00:00Z" to="2021-11-06T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.5"/>
+            <windDirection id="dd" deg="183.3" name="S"/>
+            <windSpeed id="ff" mps="4.0" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="97.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.8"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="92.5"/>
+            <mediumClouds id="MEDIUM" percent="1.7"/>
+            <highClouds id="HIGH" percent="83.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-05T23:00:00Z" to="2021-11-06T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="3.2"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T01:00:00Z" to="2021-11-06T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.0"/>
+            <windDirection id="dd" deg="210.4" name="SW"/>
+            <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="87.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.0"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T00:00:00Z" to="2021-11-06T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T02:00:00Z" to="2021-11-06T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.0"/>
+            <windDirection id="dd" deg="211.9" name="SW"/>
+            <windSpeed id="ff" mps="4.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="86.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.2"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T01:00:00Z" to="2021-11-06T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.6"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T03:00:00Z" to="2021-11-06T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.2"/>
+            <windDirection id="dd" deg="217.2" name="SW"/>
+            <windSpeed id="ff" mps="5.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="86.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T02:00:00Z" to="2021-11-06T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="3.1"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T04:00:00Z" to="2021-11-06T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.5"/>
+            <windDirection id="dd" deg="221.1" name="SW"/>
+            <windSpeed id="ff" mps="5.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="84.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.0"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T03:00:00Z" to="2021-11-06T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="5.7"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T05:00:00Z" to="2021-11-06T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="215.4" name="SW"/>
+            <windSpeed id="ff" mps="5.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="84.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.3"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T04:00:00Z" to="2021-11-06T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="15.4"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T06:00:00Z" to="2021-11-06T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.7"/>
+            <windDirection id="dd" deg="217.4" name="SW"/>
+            <windSpeed id="ff" mps="5.9" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="84.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.7"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T05:00:00Z" to="2021-11-06T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="11.3"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T07:00:00Z" to="2021-11-06T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.0"/>
+            <windDirection id="dd" deg="215.9" name="SW"/>
+            <windSpeed id="ff" mps="6.0" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="84.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.0"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="99.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T06:00:00Z" to="2021-11-06T07:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="22.8"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T08:00:00Z" to="2021-11-06T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.4"/>
+            <windDirection id="dd" deg="220.4" name="SW"/>
+            <windSpeed id="ff" mps="6.5" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="0.4" unit="W/m^2"/>
+            <humidity value="84.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.1"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="59.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T07:00:00Z" to="2021-11-06T08:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="32.5"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T09:00:00Z" to="2021-11-06T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.0"/>
+            <windDirection id="dd" deg="221.6" name="SW"/>
+            <windSpeed id="ff" mps="7.0" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="13.1" unit="W/m^2"/>
+            <humidity value="85.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.1"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T08:00:00Z" to="2021-11-06T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.2" minvalue="0.0" maxvalue="0.4" probability="46.0"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T10:00:00Z" to="2021-11-06T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.7"/>
+            <windDirection id="dd" deg="224.4" name="SW"/>
+            <windSpeed id="ff" mps="7.4" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="31.1" unit="W/m^2"/>
+            <humidity value="85.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.4"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="9.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T09:00:00Z" to="2021-11-06T10:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.2" minvalue="0.0" maxvalue="0.5" probability="48.2"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T11:00:00Z" to="2021-11-06T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.2"/>
+            <windDirection id="dd" deg="227.8" name="SW"/>
+            <windSpeed id="ff" mps="7.8" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="53.6" unit="W/m^2"/>
+            <humidity value="87.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1018.9"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="10.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T10:00:00Z" to="2021-11-06T11:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.2" minvalue="0.0" maxvalue="0.4" probability="49.2"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T12:00:00Z" to="2021-11-06T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.4"/>
+            <windDirection id="dd" deg="235.2" name="SW"/>
+            <windSpeed id="ff" mps="7.4" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="77.2" unit="W/m^2"/>
+            <humidity value="92.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1018.6"/>
+            <cloudiness id="NN" percent="98.9"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T11:00:00Z" to="2021-11-06T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.2" minvalue="0.0" maxvalue="0.4" probability="44.5"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T13:00:00Z" to="2021-11-06T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.8"/>
+            <windDirection id="dd" deg="242.8" name="SW"/>
+            <windSpeed id="ff" mps="7.0" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="104.2" unit="W/m^2"/>
+            <humidity value="93.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1018.1"/>
+            <cloudiness id="NN" percent="99.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T12:00:00Z" to="2021-11-06T13:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.1" minvalue="0.0" maxvalue="0.4" probability="41.7"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T14:00:00Z" to="2021-11-06T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="13.2"/>
+            <windDirection id="dd" deg="263.1" name="W"/>
+            <windSpeed id="ff" mps="6.3" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="107.1" unit="W/m^2"/>
+            <humidity value="93.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1018.4"/>
+            <cloudiness id="NN" percent="98.9"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="12.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T13:00:00Z" to="2021-11-06T14:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.1" minvalue="0.0" maxvalue="0.3" probability="39.3"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T15:00:00Z" to="2021-11-06T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.7"/>
+            <windDirection id="dd" deg="284.1" name="W"/>
+            <windSpeed id="ff" mps="6.0" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="89.8" unit="W/m^2"/>
+            <humidity value="87.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.0"/>
+            <cloudiness id="NN" percent="99.0"/>
+            <lowClouds id="LOW" percent="18.8"/>
+            <dewpointTemperature id="TD" unit="celsius" value="10.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T14:00:00Z" to="2021-11-06T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="26.8"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T16:00:00Z" to="2021-11-06T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.3"/>
+            <windDirection id="dd" deg="286.5" name="W"/>
+            <windSpeed id="ff" mps="5.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="58.5" unit="W/m^2"/>
+            <humidity value="84.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.6"/>
+            <cloudiness id="NN" percent="98.9"/>
+            <lowClouds id="LOW" percent="99.8"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T15:00:00Z" to="2021-11-06T16:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="14.1"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T17:00:00Z" to="2021-11-06T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.6"/>
+            <windDirection id="dd" deg="278.1" name="W"/>
+            <windSpeed id="ff" mps="4.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="11.7" unit="W/m^2"/>
+            <humidity value="82.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.2"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T16:00:00Z" to="2021-11-06T17:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="14.1"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T18:00:00Z" to="2021-11-06T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.3"/>
+            <windDirection id="dd" deg="276.6" name="W"/>
+            <windSpeed id="ff" mps="4.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="80.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.8"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T17:00:00Z" to="2021-11-06T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="7.7"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T19:00:00Z" to="2021-11-06T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.2"/>
+            <windDirection id="dd" deg="284.1" name="W"/>
+            <windSpeed id="ff" mps="4.8" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="-0.0" unit="W/m^2"/>
+            <humidity value="78.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.6"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T18:00:00Z" to="2021-11-06T19:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="4.7"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T20:00:00Z" to="2021-11-06T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.8"/>
+            <windDirection id="dd" deg="278.8" name="W"/>
+            <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="77.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.1"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T19:00:00Z" to="2021-11-06T20:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.6"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T21:00:00Z" to="2021-11-06T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="275.7" name="W"/>
+            <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="77.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T20:00:00Z" to="2021-11-06T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T22:00:00Z" to="2021-11-06T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="273.9" name="W"/>
+            <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="76.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.0"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T21:00:00Z" to="2021-11-06T22:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T23:00:00Z" to="2021-11-06T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="269.9" name="W"/>
+            <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="75.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.2"/>
+            <cloudiness id="NN" percent="98.1"/>
+            <lowClouds id="LOW" percent="99.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T22:00:00Z" to="2021-11-06T23:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T00:00:00Z" to="2021-11-07T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="275.1" name="W"/>
+            <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="72.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-06T23:00:00Z" to="2021-11-07T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T01:00:00Z" to="2021-11-07T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.4"/>
+            <windDirection id="dd" deg="279.2" name="W"/>
+            <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="69.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T00:00:00Z" to="2021-11-07T01:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T02:00:00Z" to="2021-11-07T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.2"/>
+            <windDirection id="dd" deg="281.4" name="W"/>
+            <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="68.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.3"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T01:00:00Z" to="2021-11-07T02:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T03:00:00Z" to="2021-11-07T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.2"/>
+            <windDirection id="dd" deg="282.1" name="W"/>
+            <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="68.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.4"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="97.4"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T02:00:00Z" to="2021-11-07T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T04:00:00Z" to="2021-11-07T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.9"/>
+            <windDirection id="dd" deg="278.8" name="W"/>
+            <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="69.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.3"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T03:00:00Z" to="2021-11-07T04:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T05:00:00Z" to="2021-11-07T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.9"/>
+            <windDirection id="dd" deg="280.4" name="W"/>
+            <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="69.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.5"/>
+            <cloudiness id="NN" percent="98.9"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T04:00:00Z" to="2021-11-07T05:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T06:00:00Z" to="2021-11-07T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.0"/>
+            <windDirection id="dd" deg="282.7" name="W"/>
+            <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="68.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.8"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="99.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T05:00:00Z" to="2021-11-07T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T09:00:00Z" to="2021-11-07T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.9"/>
+            <windDirection id="dd" deg="271.8" name="W"/>
+            <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="13.1" unit="W/m^2"/>
+            <humidity value="70.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.1"/>
+            <cloudiness id="NN" percent="90.6"/>
+            <lowClouds id="LOW" percent="50.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="3.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T06:00:00Z" to="2021-11-07T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T12:00:00Z" to="2021-11-07T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.1"/>
+            <windDirection id="dd" deg="287.7" name="W"/>
+            <windSpeed id="ff" mps="5.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="170.4" unit="W/m^2"/>
+            <humidity value="64.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.5"/>
+            <cloudiness id="NN" percent="81.1"/>
+            <lowClouds id="LOW" percent="25.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T09:00:00Z" to="2021-11-07T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T15:00:00Z" to="2021-11-07T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.8"/>
+            <windDirection id="dd" deg="296.4" name="NW"/>
+            <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="160.5" unit="W/m^2"/>
+            <humidity value="65.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.2"/>
+            <cloudiness id="NN" percent="91.6"/>
+            <lowClouds id="LOW" percent="84.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T12:00:00Z" to="2021-11-07T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T18:00:00Z" to="2021-11-07T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.1"/>
+            <windDirection id="dd" deg="270.5" name="W"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="23.5" unit="W/m^2"/>
+            <humidity value="78.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.9"/>
+            <cloudiness id="NN" percent="98.0"/>
+            <lowClouds id="LOW" percent="4.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T15:00:00Z" to="2021-11-07T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T21:00:00Z" to="2021-11-07T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="6.3"/>
+            <windDirection id="dd" deg="273.5" name="W"/>
+            <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="86.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.6"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="0.1"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T18:00:00Z" to="2021-11-07T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T00:00:00Z" to="2021-11-08T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.5"/>
+            <windDirection id="dd" deg="234.6" name="SW"/>
+            <windSpeed id="ff" mps="1.2" beaufort="1" name="Flau vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="90.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.6"/>
+            <cloudiness id="NN" percent="93.5"/>
+            <lowClouds id="LOW" percent="87.8"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-07T21:00:00Z" to="2021-11-08T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T03:00:00Z" to="2021-11-08T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="6.9"/>
+            <windDirection id="dd" deg="175.8" name="S"/>
+            <windSpeed id="ff" mps="1.8" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="86.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1026.0"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T00:00:00Z" to="2021-11-08T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T06:00:00Z" to="2021-11-08T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.0"/>
+            <windDirection id="dd" deg="149.2" name="SE"/>
+            <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="80.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.7"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="4.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T03:00:00Z" to="2021-11-08T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T09:00:00Z" to="2021-11-08T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="8.9"/>
+            <windDirection id="dd" deg="171.1" name="S"/>
+            <windSpeed id="ff" mps="3.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="5.1" unit="W/m^2"/>
+            <humidity value="77.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.4"/>
+            <cloudiness id="NN" percent="93.4"/>
+            <lowClouds id="LOW" percent="91.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T06:00:00Z" to="2021-11-08T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T12:00:00Z" to="2021-11-08T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.9"/>
+            <windDirection id="dd" deg="179.9" name="S"/>
+            <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="70.2" unit="W/m^2"/>
+            <humidity value="83.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.1"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="99.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T09:00:00Z" to="2021-11-08T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.3"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T15:00:00Z" to="2021-11-08T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.1"/>
+            <windDirection id="dd" deg="176.6" name="S"/>
+            <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="71.9" unit="W/m^2"/>
+            <humidity value="86.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.7"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="9.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T12:00:00Z" to="2021-11-08T15:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T18:00:00Z" to="2021-11-08T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.0"/>
+            <windDirection id="dd" deg="178.5" name="S"/>
+            <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="11.4" unit="W/m^2"/>
+            <humidity value="89.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="99.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="10.5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T15:00:00Z" to="2021-11-08T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T21:00:00Z" to="2021-11-08T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.3"/>
+            <windDirection id="dd" deg="184.9" name="S"/>
+            <windSpeed id="ff" mps="4.8" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="92.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.1"/>
+            <cloudiness id="NN" percent="97.2"/>
+            <lowClouds id="LOW" percent="24.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T18:00:00Z" to="2021-11-08T21:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T00:00:00Z" to="2021-11-09T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.2"/>
+            <windDirection id="dd" deg="188.2" name="S"/>
+            <windSpeed id="ff" mps="6.3" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="82.2" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1017.8"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="99.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="9.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-08T21:00:00Z" to="2021-11-09T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T03:00:00Z" to="2021-11-09T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.9"/>
+            <windDirection id="dd" deg="223.2" name="SW"/>
+            <windSpeed id="ff" mps="5.6" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1016.6"/>
+            <cloudiness id="NN" percent="99.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T00:00:00Z" to="2021-11-09T03:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.4"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T06:00:00Z" to="2021-11-09T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.8"/>
+            <windDirection id="dd" deg="279.7" name="W"/>
+            <windSpeed id="ff" mps="4.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="88.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.3"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="72.5"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T03:00:00Z" to="2021-11-09T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T09:00:00Z" to="2021-11-09T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.6"/>
+            <windDirection id="dd" deg="246.9" name="SW"/>
+            <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="5.6" unit="W/m^2"/>
+            <humidity value="77.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.2"/>
+            <cloudiness id="NN" percent="74.8"/>
+            <lowClouds id="LOW" percent="75.6"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T06:00:00Z" to="2021-11-09T09:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T12:00:00Z" to="2021-11-09T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.1"/>
+            <windDirection id="dd" deg="241.0" name="SW"/>
+            <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="93.9" unit="W/m^2"/>
+            <humidity value="65.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.2"/>
+            <cloudiness id="NN" percent="5.5"/>
+            <lowClouds id="LOW" percent="5.4"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T09:00:00Z" to="2021-11-09T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T18:00:00Z" to="2021-11-09T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.0"/>
+            <windDirection id="dd" deg="230.4" name="SW"/>
+            <windSpeed id="ff" mps="4.7" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="74.5" unit="W/m^2"/>
+            <humidity value="80.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1021.6"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="43.5"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T12:00:00Z" to="2021-11-09T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T00:00:00Z" to="2021-11-10T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="9.2"/>
+            <windDirection id="dd" deg="272.1" name="W"/>
+            <windSpeed id="ff" mps="4.2" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="91.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.1"/>
+            <cloudiness id="NN" percent="66.3"/>
+            <lowClouds id="LOW" percent="45.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-09T18:00:00Z" to="2021-11-10T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="1.1"/>
+<symbol id="LightRainSun" number="5"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T06:00:00Z" to="2021-11-10T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="5.9"/>
+            <windDirection id="dd" deg="258.7" name="W"/>
+            <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="94.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.0"/>
+            <cloudiness id="NN" percent="0.0"/>
+            <lowClouds id="LOW" percent="0.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T00:00:00Z" to="2021-11-10T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Sun" number="1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T12:00:00Z" to="2021-11-10T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.1"/>
+            <windDirection id="dd" deg="230.6" name="SW"/>
+            <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="73.4" unit="W/m^2"/>
+            <humidity value="82.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.6"/>
+            <cloudiness id="NN" percent="60.4"/>
+            <lowClouds id="LOW" percent="36.8"/>
+            <dewpointTemperature id="TD" unit="celsius" value="7.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T06:00:00Z" to="2021-11-10T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T18:00:00Z" to="2021-11-10T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.9"/>
+            <windDirection id="dd" deg="217.1" name="SW"/>
+            <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="89.4" unit="W/m^2"/>
+            <humidity value="85.9" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.3"/>
+            <cloudiness id="NN" percent="83.8"/>
+            <lowClouds id="LOW" percent="36.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="5.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T12:00:00Z" to="2021-11-10T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T00:00:00Z" to="2021-11-11T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="7.9"/>
+            <windDirection id="dd" deg="200.7" name="S"/>
+            <windSpeed id="ff" mps="4.2" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1024.1"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="75.9"/>
+            <dewpointTemperature id="TD" unit="celsius" value="6.2"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-10T18:00:00Z" to="2021-11-11T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T06:00:00Z" to="2021-11-11T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="10.0"/>
+            <windDirection id="dd" deg="199.8" name="S"/>
+            <windSpeed id="ff" mps="5.3" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="89.7" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.8"/>
+            <cloudiness id="NN" percent="99.0"/>
+            <lowClouds id="LOW" percent="65.2"/>
+            <dewpointTemperature id="TD" unit="celsius" value="8.4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T00:00:00Z" to="2021-11-11T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T12:00:00Z" to="2021-11-11T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.7"/>
+            <windDirection id="dd" deg="214.8" name="SW"/>
+            <windSpeed id="ff" mps="6.2" beaufort="4" name="Laber bris"/>
+            <globalRadiation value="63.4" unit="W/m^2"/>
+            <humidity value="93.4" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1017.5"/>
+            <cloudiness id="NN" percent="98.9"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.7"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T06:00:00Z" to="2021-11-11T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="2.6"/>
+<symbol id="LightRain" number="9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T18:00:00Z" to="2021-11-11T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="13.4"/>
+            <windDirection id="dd" deg="226.1" name="SW"/>
+            <windSpeed id="ff" mps="5.1" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="76.3" unit="W/m^2"/>
+            <humidity value="94.0" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1017.3"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="12.6"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T12:00:00Z" to="2021-11-11T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="3.8"/>
+<symbol id="LightRain" number="9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T00:00:00Z" to="2021-11-12T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="13.7"/>
+            <windDirection id="dd" deg="232.8" name="SW"/>
+            <windSpeed id="ff" mps="4.8" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="94.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1018.4"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="13.0"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-11T18:00:00Z" to="2021-11-12T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.6"/>
+<symbol id="Drizzle" number="46"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T06:00:00Z" to="2021-11-12T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="13.6"/>
+            <windDirection id="dd" deg="227.6" name="SW"/>
+            <windSpeed id="ff" mps="4.7" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="93.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1019.1"/>
+            <cloudiness id="NN" percent="99.0"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="12.8"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T00:00:00Z" to="2021-11-12T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T12:00:00Z" to="2021-11-12T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="14.3"/>
+            <windDirection id="dd" deg="228.6" name="SW"/>
+            <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="52.8" unit="W/m^2"/>
+            <humidity value="91.1" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1020.9"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="12.9"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T06:00:00Z" to="2021-11-12T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T18:00:00Z" to="2021-11-12T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="13.4"/>
+            <windDirection id="dd" deg="225.2" name="SW"/>
+            <windSpeed id="ff" mps="3.3" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="71.4" unit="W/m^2"/>
+            <humidity value="91.3" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1022.0"/>
+            <cloudiness id="NN" percent="99.1"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="12.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T12:00:00Z" to="2021-11-12T18:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-13T00:00:00Z" to="2021-11-13T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.9"/>
+            <windDirection id="dd" deg="185.7" name="S"/>
+            <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="94.6" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.1"/>
+            <cloudiness id="NN" percent="78.5"/>
+            <lowClouds id="LOW" percent="79.3"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-12T18:00:00Z" to="2021-11-13T00:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="PartlyCloud" number="3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-13T06:00:00Z" to="2021-11-13T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="11.2"/>
+            <windDirection id="dd" deg="192.9" name="S"/>
+            <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"/>
+            <globalRadiation value="0.0" unit="W/m^2"/>
+            <humidity value="92.8" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1023.8"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="10.1"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-13T00:00:00Z" to="2021-11-13T06:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-13T12:00:00Z" to="2021-11-13T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <temperature id="TTT" unit="celsius" value="12.8"/>
+            <windDirection id="dd" deg="204.7" name="SW"/>
+            <windSpeed id="ff" mps="3.4" beaufort="3" name="Lett bris"/>
+            <globalRadiation value="58.3" unit="W/m^2"/>
+            <humidity value="90.5" unit="percent"/>
+            <pressure id="pr" unit="hPa" value="1025.5"/>
+            <cloudiness id="NN" percent="98.8"/>
+            <lowClouds id="LOW" percent="100.0"/>
+            <dewpointTemperature id="TD" unit="celsius" value="11.3"/>
+         </location>
+      </time>
+      <time datatype="forecast" from="2021-11-13T06:00:00Z" to="2021-11-13T12:00:00Z">
+         <location altitude="21" latitude="53.4239" longitude="-7.9407">
+            <precipitation unit="mm" value="0.0"/>
+<symbol id="Cloud" number="4"/>
+         </location>
+      </time>
+   </product>
+</weatherdata> 
